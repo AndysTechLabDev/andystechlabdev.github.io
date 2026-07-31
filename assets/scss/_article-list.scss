@@ -1,0 +1,240 @@
+.article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    overflow: visible;
+}
+
+.article-list > .article-list-item {
+    position: relative;
+    top: 0;
+    z-index: 0;
+    overflow: visible !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: top 0.18s ease;
+}
+
+.article-list > .article-list-item:hover {
+    top: -2px;
+    z-index: 20;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__card,
+.article-list--archives .article-list-item__card {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid var(--card-separator-color);
+    background: var(--card-background);
+    background-clip: padding-box;
+    color: var(--card-text-color-main, inherit);
+    text-decoration: none;
+    box-shadow: var(--card-shadow);
+    transition:
+        border-color 0.18s ease,
+        box-shadow 0.18s ease;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__card {
+    border-radius: 18px;
+}
+
+.article-list--archives .article-list-item__card {
+    border-radius: var(--card-border-radius);
+}
+
+.article-list:not(.article-list--archives) .article-list-item:hover .article-list-item__card,
+.article-list--archives .article-list-item:hover .article-list-item__card {
+    border-color: var(--accent-color);
+    box-shadow:
+        0 0 0 1px var(--accent-color),
+        0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.article-list:not(.article-list--archives) .article-list-item__content,
+.article-list--archives .article-list-item__content {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__content {
+    padding: 1.15rem 1.25rem;
+}
+
+.article-list--archives .article-list-item__content {
+    padding: 1.05rem 1.15rem;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__title,
+.article-list--archives .article-list-item__title {
+    display: -webkit-box;
+    margin: 0 0 0.55rem;
+    overflow: hidden;
+    color: var(--card-text-color-main);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    -webkit-box-orient: vertical;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__title {
+    font-size: 2rem !important;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.article-list--archives .article-list-item__title {
+    font-size: 2rem !important;
+    line-height: 1.15;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__summary,
+.article-list--archives .article-list-item__summary {
+    display: -webkit-box;
+    margin: 0;
+    overflow: hidden;
+    color: var(--card-text-color-secondary);
+    opacity: 0.92;
+    -webkit-box-orient: vertical;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__summary {
+    font-size: 1.35rem;
+    line-height: 1.6;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
+.article-list--archives .article-list-item__summary {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__meta,
+.article-list--archives .article-list-item__meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--card-text-color-secondary);
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 0.85;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__meta {
+    gap: 0.85rem;
+    margin-top: 0.9rem;
+    font-size: 0.98rem;
+}
+
+.article-list--archives .article-list-item__meta {
+    gap: 0.7rem;
+    margin-top: 0.8rem;
+    font-size: 1rem;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__thumb,
+.article-list--archives .article-list-item__thumb {
+    flex: 0 0 auto;
+    align-self: stretch;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    overflow: hidden;
+    background: var(--card-background);
+}
+
+.article-list:not(.article-list--archives) .article-list-item__thumb {
+    width: clamp(210px, 18vw, 260px);
+    aspect-ratio: 16 / 9;
+}
+
+.article-list--archives .article-list-item__thumb {
+    width: clamp(180px, 15vw, 220px);
+    aspect-ratio: 16 / 9;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__thumb picture,
+.article-list--archives .article-list-item__thumb picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.article-list:not(.article-list--archives) .article-list-item__thumb img,
+.article-list--archives .article-list-item__thumb img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 768px) {
+    .article-list {
+        gap: 0.95rem;
+    }
+
+    .article-list:not(.article-list--archives) .article-list-item__card,
+    .article-list--archives .article-list-item__card {
+        flex-direction: column;
+        min-height: unset;
+    }
+
+    .article-list:not(.article-list--archives) .article-list-item__content,
+    .article-list--archives .article-list-item__content {
+        padding: 1rem 1.1rem;
+    }
+
+    .article-list:not(.article-list--archives) .article-list-item__title {
+        font-size: 1.6rem !important;
+    }
+
+    .article-list--archives .article-list-item__title {
+        font-size: 1.6rem !important;
+        line-height: 1.2;
+    }
+
+    .article-list:not(.article-list--archives) .article-list-item__summary {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .article-list--archives .article-list-item__summary {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+    }
+
+    .article-list:not(.article-list--archives) .article-list-item__meta {
+        margin-top: 0.85rem;
+        font-size: 0.9rem;
+    }
+
+    .article-list--archives .article-list-item__meta {
+        margin-top: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .article-list:not(.article-list--archives) .article-list-item__thumb,
+    .article-list--archives .article-list-item__thumb {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}

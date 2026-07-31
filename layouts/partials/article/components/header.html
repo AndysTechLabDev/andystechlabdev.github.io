@@ -1,0 +1,6 @@
+{{- $isList := .IsList -}}
+{{- $page := .Page -}}
+
+<header class="article-header">
+    {{ partial "article/components/details" (dict "Page" $page "IsList" $isList) }}
+</header>

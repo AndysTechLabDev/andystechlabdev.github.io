@@ -1,0 +1,76 @@
+sections:
+  - title: "3D Printers"
+    description: "My Inventory of 3D Printers"
+    items:
+      - title: "Sovol SV08"
+        image: "/images/links/sovol_sv08.webp"
+        url: "https://amzn.to/4hs7kmm"
+
+      - title: "Bambu Lab A1 Combo"
+        image: "/images/links/bambu_a1.webp"
+        url: "https://eu.store.bambulab.com/de/products/a1?from=home_web_a1_detail"
+
+      - title: "Snapmaker U1"
+        image: "/images/links/snapmaker_u1.webp"
+        url: "https://eu.snapmaker.com/de/products/snapmaker-u1-3d-printer?gad_source=1&gad_campaignid=23129919490&gbraid=0AAAAAonmHr6bc9cMxaSs5DWHGsNCCjoGc&gclid=EAIaIQobChMI2pyRx5LolQMVactEBx1RdjDKEAQYASABEgKc6vD_BwE"
+      
+  - title: "3D Printing Accessoires"
+    description: ""
+    items:
+      - title: "Overture ABS"
+        description: "Good fit for stronger parts and enclosed prints."
+        image: "/images/links/overture_abs.webp"
+        url: "https://amzn.to/4lzb316"
+        
+      - title: "Overture PLA"
+        image: "/images/links/overture_pla.webp"
+        url: "https://amzn.to/3Vauu4n"
+
+      - title: "Filament Dryer"
+        image: "/images/links/filament_dryer.webp"
+        url: "https://amzn.to/4gk8RKS"
+
+  #- title: "Amazon Storefront"
+  #  description: "Find most of the items i use directly on Amazon."
+  #  items:
+  #    - title: "Amazon Storefront"
+  #      image: "/images/links/amazon_storefront.webp"
+  #      url: "https://..."
+
+  - title: "Videography Gear"
+    description: ""
+    items:
+      - title: "iPhone 14 Pro"
+        image: "/images/links/iphone.webp"
+        url: "https://amzn.to/4hpwNNd"
+
+      - title: "Tripod"
+        image: "/images/links/tripod.webp"
+        url: "https://amzn.to/3RwbGhH"
+
+      - title: "Lighting"
+        image: "/images/links/lighting1.webp"
+        url: "https://amzn.to/3TdkWId"
+
+      - title: "Ballhead Clamp"
+        image: "/images/links/smallrig_clamp.webp"
+        url: "https://amzn.to/4vG3725"
+
+      - title: "Small Lighting"
+        image: "/images/links/lighting2.webp"
+        url: "https://amzn.to/45n2JdO"
+
+  - title: "Audio"
+    description: ""
+    items:
+      - title: "Lavalier Microphone"
+        image: "/images/links/lav_mic.webp"
+        url: "https://amzn.to/4babJ9L"
+
+      - title: "Condenser Microphone (t.bone 400)"
+        image: "/images/links/condenser_mic.webp"
+        url: "https://www.thomann.at/the_tbone_sc400_grossmembranmikro.htm?gad_source=1&gad_campaignid=1539417521&gbraid=0AAAAADuDMCW9-rzBIAclqlZMifKyIhwSg&gclid=EAIaIQobChMI3ZOyh5HolQMVx9hEBx0zDA8AEAQYASABEgKb_vD_BwE"
+
+      - title: "Microphone Arm"
+        image: "/images/links/mic_arm.webp"
+        url: "https://amzn.to/4fpovCs"

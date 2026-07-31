@@ -1,0 +1,77 @@
+{{ define "main" }}
+<article class="main-article links-page">
+
+    <header class="links-page__header">
+        <div class="article-details">
+            <div class="article-title-wrapper">
+                <h1 class="article-title">{{ .Title }}</h1>
+
+                {{ with .Params.description }}
+                    <h2 class="article-subtitle">{{ . }}</h2>
+                {{ end }}
+            </div>
+        </div>
+    </header>
+
+    <section class="article-content links-page__content">
+
+        {{ range hugo.Data.links.sections }}
+            <section class="links-section">
+                <h2 class="links-section__title">{{ .title }}</h2>
+
+                {{ with .description }}
+                    <div class="links-section__description">
+                        {{ . | markdownify }}
+                    </div>
+                {{ end }}
+
+                <div class="link-grid">
+                    {{ range .items }}
+                        <a
+                            class="link-card"
+                            href="{{ .url }}"
+                            target="_blank"
+                            rel="noopener noreferrer sponsored nofollow">
+
+                            <div class="link-card__image">
+                                <img
+                                    src="{{ .image }}"
+                                    alt="{{ .title }}"
+                                    loading="lazy">
+                            </div>
+
+                            <div class="link-card__body">
+                                <div class="link-card__title">
+                                    {{ .title }}
+                                </div>
+
+                                {{ with .description }}
+                                    <div class="link-card__description">
+                                        {{ . | markdownify }}
+                                    </div>
+                                {{ end }}
+
+                                {{ with .label }}
+                                    <div class="link-card__label">
+                                        {{ . }}
+                                    </div>
+                                {{ end }}
+                            </div>
+                        </a>
+                    {{ end }}
+                </div>
+            </section>
+        {{ end }}
+
+        <p class="links-page__note">
+            <i>Disclosure: Some links on this page are affiliate links. If you make a purchase through one of these links, I may receive a small commission at no additional cost to you.<br>
+            <b>Product images shown on this page are provided by the respective manufacturers or retailers and remain the property of their respective rights holders.</b><br>
+            Thank you for supporting Andy's Tech Lab!</i>
+        </p>
+
+    </section>
+
+</article>
+
+{{ partial "footer/footer" . }}
+{{ end }}

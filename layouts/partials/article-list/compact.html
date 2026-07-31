@@ -1,0 +1,62 @@
+{{- $page := . -}}
+{{- $dateFormat := or $page.Site.Params.dateFormat.published "Monday, January 2, 2006" -}}
+{{- $summary := $page.Params.description | default $page.Summary | plainify | htmlUnescape -}}
+
+{{- with $page.Params.image -}}
+  {{- with $page.Resources.GetMatch . -}}
+    {{- $thumbSmall := .Fill "320x180 Center q85" -}}
+    {{- $thumbMedium := .Fill "640x360 Center q85" -}}
+    {{- $thumbLarge := .Fill "960x540 Center q85" -}}
+    {{- $thumbSmallWebp := .Fill "320x180 Center webp q82" -}}
+    {{- $thumbMediumWebp := .Fill "640x360 Center webp q82" -}}
+    {{- $thumbLargeWebp := .Fill "960x540 Center webp q82" -}}
+
+    <article class="article-list-item">
+      <a class="article-list-item__card" href="{{ $page.RelPermalink }}">
+        <div class="article-list-item__content">
+          <h2 class="article-list-item__title">
+            {{ $page.Title }}
+          </h2>
+
+          {{- with $summary -}}
+            <p class="article-list-item__summary">
+              {{ . }}
+            </p>
+          {{- end -}}
+
+          <div class="article-list-item__meta">
+            {{- if not $page.Date.IsZero -}}
+              <span>{{ $page.Date | time.Format $dateFormat }}</span>
+            {{- end -}}
+          </div>
+        </div>
+
+        <div class="article-list-item__thumb">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                {{ $thumbSmallWebp.RelPermalink }} 320w,
+                {{ $thumbMediumWebp.RelPermalink }} 640w,
+                {{ $thumbLargeWebp.RelPermalink }} 960w
+              "
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 24vw, 280px"
+            >
+            <img
+              src="{{ $thumbMedium.RelPermalink }}"
+              srcset="
+                {{ $thumbSmall.RelPermalink }} 320w,
+                {{ $thumbMedium.RelPermalink }} 640w,
+                {{ $thumbLarge.RelPermalink }} 960w
+              "
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 24vw, 280px"
+              alt="{{ $page.Title }}"
+              loading="lazy"
+              decoding="async"
+            >
+          </picture>
+        </div>
+      </a>
+    </article>
+  {{- end -}}
+{{- end -}}

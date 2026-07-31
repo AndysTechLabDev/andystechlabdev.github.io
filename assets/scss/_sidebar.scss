@@ -1,0 +1,130 @@
+.sidebar header .site-avatar .emoji {
+    font-family: "JetBrains Mono";
+    color: #fff;
+    background-color: #000;
+    font-size: 1.4rem;
+}
+
+.site-name a {
+    transition: color 0.2s ease;
+}
+
+.site-name a:hover {
+    color: var(--accent-color-darker) !important;
+}
+
+#main-menu li a {
+    transition: color 0.2s ease;
+}
+
+#main-menu li a svg {
+    transition:
+        color 0.2s ease,
+        stroke 0.2s ease,
+        transform 0.2s ease;
+}
+
+#main-menu li a:hover,
+#main-menu li a:hover span {
+    color: var(--accent-color) !important;
+}
+
+#main-menu li a:hover svg {
+    color: var(--accent-color) !important;
+    stroke: var(--accent-color) !important;
+    transform: translateY(-1px);
+}
+
+#main-menu li.current a,
+#main-menu li.current a span {
+    color: var(--accent-color) !important;
+}
+
+#main-menu li.current a svg {
+    color: var(--accent-color) !important;
+    stroke: var(--accent-color) !important;
+}
+
+.menu-social a {
+    color: var(--body-text-color);
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.menu-social a svg {
+    color: inherit;
+    stroke: currentColor;
+    transition:
+        color 0.2s ease,
+        stroke 0.2s ease,
+        transform 0.2s ease;
+}
+
+.menu-social a:hover,
+.menu-social a:focus-visible {
+    color: var(--accent-color) !important;
+    transform: translateY(-1px);
+}
+
+.menu-social a:hover svg,
+.menu-social a:focus-visible svg {
+    color: var(--accent-color) !important;
+    stroke: var(--accent-color) !important;
+}
+
+.tagCloud .tagCloud-tags a,
+.tag-list a,
+.article-tags a,
+.section-term {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-radius: 999px;
+}
+
+.tagCloud .tagCloud-tags a {
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+.tagCloud .tagCloud-tags a:hover {
+    background-color: var(--accent-color-darker) !important;
+    color: var(--accent-color-text) !important;
+    box-shadow: var(--shadow-l2);
+    transform: translateY(-1px);
+}
+
+.widget.archives .archives-year a {
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition:
+        border-color 0.2s ease,
+        color 0.2s ease;
+}
+
+.widget.archives .archives-year:first-child a {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.widget.archives .archives-year:last-child a {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.widget.archives .archives-year:first-child:last-child a {
+    border-radius: 12px;
+}
+
+.widget.archives .archives-year a:hover {
+    border-color: var(--accent-color);
+    background: transparent;
+}
+
+.widget.archives .archives-year a:hover .year,
+.widget.archives .archives-year a:hover .count {
+    color: var(--accent-color);
+}

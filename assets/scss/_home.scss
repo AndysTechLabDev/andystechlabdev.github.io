@@ -1,0 +1,11 @@
+.search-form {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: border-color .18s ease, background-color .18s ease;
+}
+
+.search-form:hover,
+.search-form:focus-within {
+    border-color: var(--accent-color);
+    background: var(--card-background);
+}

@@ -1,0 +1,48 @@
+# Configure main menu and social menu
+#[[main]]
+#identifier = "home"
+#name = "Home"
+#url = "/"
+#[main.params]
+#icon = "home"
+#newtab = true
+
+[[social]]
+    identifier = "youtube"
+    weight     = 10
+    name       = "YouTube"
+    url        = "https://www.youtube.com/@AndysTechLab"
+
+    [social.params]
+        icon = "youtube"
+        newTab = true
+
+[[social]]
+    identifier = "github"
+    weight     = 30
+    name       = "GitHub"
+    url        = "https://github.com/AndysTechLabDev"
+
+    [social.params]
+        icon = "github"
+        newTab = true
+
+[[social]]
+    identifier = "kofi"
+    weight     = 100
+    name       = "Ko-fi"
+    url        = "https://ko-fi.com/andystechlab"
+
+    [social.params]
+        icon = "coffee"
+        newTab = true
+
+[[social]]
+    identifier = "printables"
+    weight     = 20
+    name       = "Printables"
+    url        = "https://www.printables.com/@AndysTechLab"
+
+    [social.params]
+        icon = "printables"
+        newTab = true

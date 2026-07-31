@@ -1,0 +1,67 @@
+body.template-archives .archives-list {
+    display: flex;
+    flex-direction: column;
+}
+
+body.template-archives .archives-group {
+    margin-bottom: 1.6rem;
+    scroll-margin-top: 2rem;
+}
+
+body.template-archives
+    .archives-list:has(> .archives-group:target)
+    > .archives-group:not(:target) {
+    display: none;
+}
+
+body.template-archives
+    .archives-list:has(> .archives-group:target)
+    > .archives-group:target {
+    margin-bottom: 0;
+}
+
+body.template-archives h2.archives-date.section-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 1.1rem 0;
+    color: var(--card-text-color-main) !important;
+    font-size: 5rem !important;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+body.template-archives h2.archives-date.section-title::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 2px;
+}
+
+body.template-archives h2.archives-date.section-title a {
+    color: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+body.template-archives
+    .archives-group:target
+    h2.archives-date.section-title {
+    color: var(--accent-color) !important;
+}
+
+@media (max-width: 768px) {
+    body.template-archives .archives-group {
+        margin-bottom: 1rem;
+        scroll-margin-top: 1rem;
+    }
+
+    body.template-archives h2.archives-date.section-title {
+        margin-bottom: 0.85rem;
+        font-size: 2.8rem !important;
+    }
+}

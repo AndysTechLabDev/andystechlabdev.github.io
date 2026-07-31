@@ -1,0 +1,22 @@
+footer.site-footer::before {
+    content: none !important;
+    display: none !important;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+.site-footer .legal-links {
+    margin-top: 0.5rem;
+    font-size: 1.35rem;
+}
+
+.site-footer .legal-links a {
+    color: var(--card-text-color-secondary);
+    text-decoration: none;
+}
+
+.site-footer .legal-links a:hover {
+    color: var(--accent-color);
+}

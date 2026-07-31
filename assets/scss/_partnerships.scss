@@ -1,0 +1,31 @@
+.partnerships-page {
+
+    .partnerships-page__content {
+        color: var(--card-text-color-main);
+    }
+
+    .partnerships-page__content h1,
+    .partnerships-page__content h2,
+    .partnerships-page__content h3,
+    .partnerships-page__content h4,
+    .partnerships-page__content h5,
+    .partnerships-page__content h6 {
+        color: var(--card-text-color-main);
+    }
+
+    .partnerships-page__content p,
+    .partnerships-page__content li,
+    .partnerships-page__content strong,
+    .partnerships-page__content em {
+        color: var(--card-text-color-secondary);
+    }
+
+    .partnerships-page__content a {
+        color: var(--accent-color);
+    }
+
+    .article-title {
+        font-weight: 700;
+    }
+
+}

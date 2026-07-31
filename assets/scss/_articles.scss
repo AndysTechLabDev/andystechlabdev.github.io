@@ -1,0 +1,27 @@
+body.article-page article.main-article > header.article-header {
+    display: block !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.article-content {
+    --heading-border-size: 0px;
+}
+
+.article-content p {
+    line-height: 1.65;
+    margin: 0 0 0.75rem !important;
+}
+
+.article-content p + p {
+    margin-top: 0 !important;
+}
+
+.article-content p:empty {
+    display: none;
+}
