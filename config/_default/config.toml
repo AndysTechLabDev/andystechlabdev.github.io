@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://andystechlabdev.github.io/"
+baseurl = "https://andystechlab.dev/"
 locale  = "en-us"
 title   = "AndysTechLab"
 
