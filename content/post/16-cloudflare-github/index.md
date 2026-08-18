@@ -1,7 +1,6 @@
 ---
 title: Connect a Custom Domain to GitHub Pages + Cloudflare
 date: 2026-08-18
-publishDate: 2026-08-18T18:00:00
 draft: false
 showAuthor: false
 showReadingTime: false
