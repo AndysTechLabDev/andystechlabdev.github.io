@@ -18,6 +18,13 @@ When you visit the website, GitHub may automatically process technical informati
 
 https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
 
+---
+
+## Privacy-Friendly Analytics
+
+This website uses **Rybbit**, a self-hosted, privacy-friendly analytics platform, to understand general website usage and improve the content provided.
+
+Rybbit is configured without cookies or local storage. IP addresses are not stored and are only processed temporarily in an anonymized manner where required for analytics purposes. The collected analytics data is hosted and processed on my own server and is not shared with third-party advertising or tracking services.
 
 ---
 
@@ -49,4 +56,4 @@ If you have any questions regarding this Privacy Policy, please contact: **andys
 
 This Privacy Policy may be updated from time to time to reflect changes in the website, applicable laws or services used.
 
-Last updated: July 2026
+Last updated: August 2026
