@@ -4,4 +4,3 @@ scripts
 .hugo_build.lock
 .DS_Store
 assets/jsconfig.json
-layouts/partials/head/custom.html
