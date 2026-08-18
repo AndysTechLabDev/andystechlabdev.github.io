@@ -7,6 +7,7 @@ showReadingTime: false
 showWordCount: false
 toc: true
 tags:
+  - hugo
 image: featured.webp
 
 ---
