@@ -4,7 +4,7 @@ on:
     branches:
       - main
     schedule:
-    - cron: "20 19 * * *"
+    - cron: "20 05 * * *"
       timezone: "Europe/Vienna"
   workflow_dispatch:
 permissions:
