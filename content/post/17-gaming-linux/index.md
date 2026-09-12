@@ -1,6 +1,7 @@
 ---
 title: I Built a €150 Gaming PC… and Put Linux on It
 date: 2026-09-03
+publishDate: 2026-09-03T19:20:00+02:00
 draft: false
 showAuthor: false
 showReadingTime: false
