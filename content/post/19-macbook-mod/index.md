@@ -1,7 +1,7 @@
 ---
 title: MacBook Air 2017 Cooling Mod
 date: 2026-09-18
-publishDate: 2026-09-18T19:01:00+02:00
+publishDate: 2026-09-17T19:01:00+02:00
 draft: false
 showAuthor: false
 showReadingTime: false
@@ -44,9 +44,25 @@ ___
 <img src="drill-me-daddy.png" style="width: 377px; max-width: 100%; height: auto;" alt="">\
 (Scale to ~40mm)
 ___
+## Commands
+Install(specific for Fedora):
+```
+sudo dnf install stress-ng -y
+```
+
+Stresstest:
+```
+stress-ng --cpu 0 --cpu-method matrixprod --timeout 10m --metrics-brief
+```
+
+Temperature Sensors:
+```
+watch -n 1 sensors
+```
+___
 ## Support me!
 You like the content and want to support me? [Buy me some ABS!](https://ko-fi.com/andystechlab)  
-Or buy something with my [affiliate links](https://andystechlab.dev/product-links/) with no exra cost!\  
+Or buy something with my [affiliate links](https://andystechlab.dev/product-links/) with no exra cost!  
 
 **Some of the stuff i use:**\
 PLA Filament: [Amazon](https://amzn.to/3Vauu4n) *  
