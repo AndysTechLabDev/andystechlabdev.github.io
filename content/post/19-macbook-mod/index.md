@@ -1,7 +1,7 @@
 ---
 title: MacBook Air 2017 Cooling Mod
 date: 2026-09-18
-publishDate: 2026-09-17T19:01:00+02:00
+publishDate: 2026-09-18T19:01:00+02:00
 draft: false
 showAuthor: false
 showReadingTime: false
@@ -13,7 +13,7 @@ tags:
 image: featured.webp
 
 ---
-{{< youtube id="-wjMsOjrkSU" label="MacBook Air 2017 Cooling Mod" >}}
+{{< youtube id="FiPQykgoQtI" label="MacBook Air 2017 Cooling Mod" >}}
 
 ## Overview
 The 2017 MacBook Air isn't exactly known for having an overpowered cooling system. Under sustained CPU load, temperatures can climb quickly and the fan has to work hard to keep the system under control.
