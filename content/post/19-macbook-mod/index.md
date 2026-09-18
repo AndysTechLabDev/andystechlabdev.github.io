@@ -1,7 +1,7 @@
 ---
 title: MacBook Air 2017 Cooling Mod
 date: 2026-09-18
-publishDate: 2026-09-17T19:01:00+02:00
+publishDate: 2026-09-18T19:01:00+02:00
 draft: false
 showAuthor: false
 showReadingTime: false
