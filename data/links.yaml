@@ -71,6 +71,10 @@ sections:
         image: "/images/links/condenser_mic.webp"
         url: "https://www.thomann.at/the_tbone_sc400_grossmembranmikro.htm?gad_source=1&gad_campaignid=1539417521&gbraid=0AAAAADuDMCW9-rzBIAclqlZMifKyIhwSg&gclid=EAIaIQobChMI3ZOyh5HolQMVx9hEBx0zDA8AEAQYASABEgKb_vD_BwE"
 
+      - title: "Audio Interface"
+        image: "/images/links/audio_interface.webp"
+        url: "https://link.amazon/B0aU8g4Cw"
+
       - title: "Microphone Arm"
         image: "/images/links/mic_arm.webp"
         url: "https://amzn.to/4fpovCs"
