@@ -63,13 +63,18 @@ The software setup and configuration are documented in the GitHub repository, so
 
 If you want to see the Subscriber Display in action and get a closer look at the build, check out the video at the top of this post.
 ___
+
+## 3D Printed Parts
+
+* [Printables](https://www.printables.com/model/1859082-esp32-c3-subscriber-counter)  
+
+___
 ## Wiring Diagram
 <img src="wiring-diagram-1.png" style="width: 100%; max-width: 100%; height: auto;" alt="">
 
 ___
 ## Sources
-* [Github](https://github.com/AndysTechLabDev/SubscriberDisplay)  
-* [Printables](https://www.printables.com/model/1859082-esp32-c3-subscriber-counter)  
+* Get the Code on [Github](https://github.com/AndysTechLabDev/SubscriberDisplay)  
 * [Arduino IDE](https://www.arduino.cc/en/software/)  
 * [YouTube API](https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com)  
 * [DIY Heat Insert Press](https://youtu.be/klOXuKuPEaU)  
