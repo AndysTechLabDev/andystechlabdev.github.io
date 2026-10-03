@@ -9,6 +9,8 @@ toc: true
 tags:
   - homelab
   - Linux
+  - self-hosting
+  - docker
 image: featured.webp
 
 ---
