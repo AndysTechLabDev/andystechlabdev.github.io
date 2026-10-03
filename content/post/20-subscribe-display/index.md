@@ -83,7 +83,7 @@ ___
 You like the content and want to support me? [Buy me some ABS!](https://ko-fi.com/andystechlab)  
 Or buy something with my [affiliate links](https://andystechlab.dev/product-links/) with no exra cost!  
 
-**Some of the stuff i use:**
+**Some of the stuff i use:**\
 PLA Filament: [Amazon](https://amzn.to/3Vauu4n) *  
 ABS Filament: [Amazon](https://amzn.to/4lzb316) *  
 Filament Dryer: [Amazon](https://amzn.to/42NVXxg) *  
