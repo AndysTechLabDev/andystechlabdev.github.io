@@ -4,7 +4,7 @@ on:
     branches:
       - main
     schedule:
-    - cron: "59 16 * * *" #summer
+    - cron: "31 16 * * *" #summer
     # - cron: "59 17 * * *" #winter
       #timezone: "Europe/Vienna"
   workflow_dispatch:
