@@ -1,7 +1,7 @@
 ---
 title: Building a Raspberry Pi Mini PC with a SATA SSD
 date: 2026-10-17
-publishDate: 2026-09-17T18:30:00+02:00
+publishDate: 2026-10-17T18:30:00+02:00
 draft: false
 showAuthor: false
 showReadingTime: false
