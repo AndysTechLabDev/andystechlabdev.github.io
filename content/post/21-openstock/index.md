@@ -1,7 +1,7 @@
 ---
 title: Deploy a Self-Hosted Stock Dashboard with Docker
-date: 2026-10-02
-publishDate: 2026-10-02T18:30:00+02:00
+date: 2026-10-03
+publishDate: 2026-10-03T18:30:00+02:00
 draft: false
 showAuthor: false
 showReadingTime: false
