@@ -1,7 +1,7 @@
 ---
 title: "SolidCraft: Testing a Free, Open-Source Fusion Alternative"
 date: 2026-10-21
-publishDate: 2026-10-21T19:01:00+02:00
+publishDate: 2026-10-21T18:30:00+02:00
 draft: false
 showAuthor: false
 showReadingTime: false
