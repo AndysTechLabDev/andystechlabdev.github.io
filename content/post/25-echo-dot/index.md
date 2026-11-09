@@ -23,6 +23,12 @@ The Echo Dot has no USB socket, so the project uses test pads on the board for t
 
 The project’s guided setup handles much of the process, but still requires some manual steps. In my case, I downloaded a few files, entered my Wi-Fi details, and ran the setup from Fedora Linux.
 ___
+### Credit where it's due
+
+A big thanks to **Roger Ortiz** for his research and work on unlocking and rooting Amazon Echo devices. His contributions laid important groundwork for projects like Echo Dot Assist, making it possible to give these devices a second life outside Amazon's ecosystem. It's worth recognizing the people doing the low-level research that makes projects like this possible in the first place.
+
+You can find more about his work in his [XDA Developers thread](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-3rd-gen-2018-donut.4801400/).  
+___
 ## Shell Commands
 Clone the repo from Github:
 ```
@@ -64,6 +70,7 @@ ___
 - [Echo Dot Assist on GitHub](https://github.com/Gamer92000/echo-dot-assist)  
 - [Home Assistant: fully local voice assistant](https://www.home-assistant.io/voice_control/voice_remote_local_assistant/)  
 - [My Fedora MacBook video]([ADD-VIDEO-LINK](https://youtu.be/R6-nGdcRxSU))  
+- [Roger Ortiz's Echo unlocking work on XDA Developers](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-2nd-gen-2016-biscuit.4761416/)  
 ___
 ## Support me!
 You like the content and want to support me? [Buy me some ABS!](https://ko-fi.com/andystechlab)  
